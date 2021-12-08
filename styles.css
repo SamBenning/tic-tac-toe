@@ -1,0 +1,12 @@
+.game-board {
+    display: grid;
+    width: 150px;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid black;
+}
+
+.game-square {
+    height: 50px;
+    width: auto;
+    border: 1px solid black;
+}
